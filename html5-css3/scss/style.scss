@@ -1,5 +1,7 @@
-body {
-  background-color: #cccccc;
+$cinza: #cccccc;
+
+.titulo--centralizado {
+  text-align: center;
 }
 
 .header {
@@ -8,17 +10,43 @@ body {
   }
 
   &__titulo {
-    text-align: center;
+    padding-left: 15px;
   }
 }
 
-.main {
+.sobre {
+  background-color: $cinza;
+  padding: 30px;
+
+  &__titulo {
+  }
+
   &__missao {
     font-size: 20px;
   }
 }
 
-.footer {
+.beneficios {
+  background-color: white;
+  padding: 20px;
+
+  &__titulo {
+  }
+
+  &__lista {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+  }
+
+  &__item {
+    font-style: italic;
+  }
+
+  &__imagem {
+    width: 50%;
+  }
 }
 
 p {
