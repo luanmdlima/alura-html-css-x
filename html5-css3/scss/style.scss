@@ -1,0 +1,30 @@
+body {
+  background-color: #cccccc;
+}
+
+.header {
+  &__banner {
+    width: 100%;
+  }
+
+  &__titulo {
+    text-align: center;
+  }
+}
+
+.main {
+  &__missao {
+    font-size: 20px;
+  }
+}
+
+.footer {
+}
+
+p {
+  text-align: center;
+}
+
+em strong {
+  color: red;
+}

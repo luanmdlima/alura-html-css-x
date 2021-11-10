@@ -2,8 +2,16 @@ body {
   background-color: #cccccc;
 }
 
-h1 {
+.header__banner {
+  width: 100%;
+}
+
+.header__titulo {
   text-align: center;
+}
+
+.main__missao {
+  font-size: 20px;
 }
 
 p {
@@ -13,3 +21,4 @@ p {
 em strong {
   color: red;
 }
+/*# sourceMappingURL=style.css.map */
