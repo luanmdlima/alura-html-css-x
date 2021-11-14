@@ -1,0 +1,92 @@
+.header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+
+  &__container {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  &__menu {
+    position: absolute;
+    top: 110px;
+    right: 0;
+  }
+  &__item {
+    display: inline;
+    margin-left: 15px;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+    &:hover {
+      color: #c78c19;
+      text-decoration: underline;
+    }
+  }
+}
+
+.main {
+  &__container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  &__item {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+
+    &:hover {
+      border-color: #c78c19;
+    }
+
+    &:hover .main__title {
+      font-size: 35px;
+    }
+
+    &:active {
+      border-color: #088c19;
+    }
+  }
+
+  &__title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  &__description {
+    font-size: 18px;
+  }
+
+  &__price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+}
+
+.footer {
+  text-align: center;
+  background: url(./../assets/img/bg.jpg);
+  padding: 40px 0;
+
+  &__copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+}
