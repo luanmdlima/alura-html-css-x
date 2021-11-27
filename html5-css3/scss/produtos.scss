@@ -1,36 +1,4 @@
-.header {
-  background-color: #bbbbbb;
-  padding: 20px 0;
-
-  &__container {
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-  }
-
-  &__menu {
-    position: absolute;
-    top: 110px;
-    right: 0;
-  }
-  &__item {
-    display: inline;
-    margin-left: 15px;
-  }
-
-  &__link {
-    text-transform: uppercase;
-    color: black;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-
-    &:hover {
-      color: #c78c19;
-      text-decoration: underline;
-    }
-  }
-}
+@import "./header";
 
 .main {
   &__container {
@@ -79,14 +47,4 @@
   }
 }
 
-.footer {
-  text-align: center;
-  background: url(./../assets/img/bg.jpg);
-  padding: 40px 0;
-
-  &__copyright {
-    color: white;
-    font-size: 13px;
-    margin-top: 20px;
-  }
-}
+@import "./footer";
