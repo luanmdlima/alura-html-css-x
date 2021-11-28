@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .header {
   background-color: #bbbbbb;
   padding: 20px 0;
@@ -33,6 +37,18 @@
   text-decoration: underline;
 }
 
+@media screen and (max-width: 480px) {
+  .header__container {
+    width: auto;
+  }
+  .header h1 {
+    text-align: center;
+  }
+  .header__menu {
+    position: static;
+  }
+}
+
 .main__container {
   width: 940px;
   margin: 0 auto;
@@ -49,8 +65,7 @@
   margin: 0 0 10px;
 }
 
-.main__label--checkbox,
-.main legend--checkbox {
+.main__sobre--checkbox {
   margin: 20px 0;
 }
 

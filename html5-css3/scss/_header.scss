@@ -31,3 +31,19 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .header {
+    &__container {
+      width: auto;
+    }
+
+    & h1 {
+      text-align: center;
+    }
+
+    &__menu {
+      position: static;
+    }
+  }
+}

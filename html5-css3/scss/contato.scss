@@ -1,3 +1,4 @@
+@import "./body";
 @import "./header";
 
 .main {
@@ -15,10 +16,9 @@
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
-
-    &--checkbox {
-      margin: 20px 0;
-    }
+  }
+  &__sobre--checkbox {
+    margin: 20px 0;
   }
   &__input--texto {
     display: block;

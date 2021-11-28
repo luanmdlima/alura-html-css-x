@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .header {
   background-color: #bbbbbb;
   padding: 20px 0;
@@ -31,6 +35,18 @@
 .header__link:hover {
   color: #c78c19;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .header__container {
+    width: auto;
+  }
+  .header h1 {
+    text-align: center;
+  }
+  .header__menu {
+    position: static;
+  }
 }
 
 .main__container {
