@@ -1,2 +1,2 @@
 # html-css
-Repositório dos cursos de HTML e CSS do Alura.
+Repositório dos cursos da formação [HTML e CSS](https://www.alura.com.br/formacao-html-e-css) do Alura.
